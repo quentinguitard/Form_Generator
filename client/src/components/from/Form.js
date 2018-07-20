@@ -75,6 +75,13 @@ class Form extends Component {
                     >
                         Delete question{" "}
                     </button>
+                    <div className="row mt-4">
+                        <div className="col">
+                            <button className="btn btn-success">
+                                Send Form
+                            </button>
+                        </div>
+                    </div>
                 </form>
             </div>
         );

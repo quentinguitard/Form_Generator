@@ -32,7 +32,7 @@ class AnswerInput extends Component {
     addCheckbox = e => {
         e.preventDefault();
         this.setState({
-            radio: this.state.radio + 1
+            checkbox: this.state.checkbox + 1
         });
     };
     deleteCheckbox = e => {
